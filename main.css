@@ -1,0 +1,45 @@
+ * {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+     list-style: none;
+ }
+/* 总文档 */
+#main-doc {
+    display: flex;
+}
+
+/* 左侧边栏 */
+ .left-sidebar {
+     width: 30%;
+ }
+
+
+ ul {
+     display: flex;
+     flex-direction: column;
+     
+    
+ }
+ ul li:first-of-type{
+    height: 10vh;
+ }
+ ul li:last-of-type{
+    border: none;
+ }
+
+ ul>li {
+    display: flex;
+    height: 6vh;
+    align-items: center;
+    padding-left: 2em;
+    border-right:1px solid #000;
+    border-bottom: 1px solid #000;
+ }
+
+
+
+/* 右侧边栏 */
+ .right-sidebar {
+     width: 70%;
+ }
