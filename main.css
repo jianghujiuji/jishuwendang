@@ -3,6 +3,7 @@
      padding: 0;
      text-decoration: none;
      list-style: none;
+     font-family: 'Open Sans', Arial, sans-serif;
  }
 /* 总文档 */
 #main-doc {
@@ -10,22 +11,25 @@
 }
 
 /* 左侧边栏 */
- .left-sidebar {
-     width: 30%;
+.left-sidebar {
+     width: 20%;
+     height: 100vh;
+     border-right: 1px solid #000;
  }
 
 
  ul {
      display: flex;
      flex-direction: column;
-     
     
  }
  ul li:first-of-type{
     height: 10vh;
+    white-space: nowrap;
+    font-size: 3vh;
  }
  ul li:last-of-type{
-    border: none;
+    border-bottom: none;
  }
 
  ul>li {
@@ -33,13 +37,14 @@
     height: 6vh;
     align-items: center;
     padding-left: 2em;
-    border-right:1px solid #000;
     border-bottom: 1px solid #000;
  }
 
-
-
 /* 右侧边栏 */
  .right-sidebar {
-     width: 70%;
+     width: 80%;
+ }
+
+ .main-section{
+    padding: 20px;
  }
