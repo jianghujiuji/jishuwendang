@@ -8,41 +8,18 @@
 /* 总文档 */
 #main-doc {
     display: flex;
+    position: relative;
 }
 
 /* 左侧边栏 */
-.left-sidebar {
-     width: 20%;
-     height: 100vh;
-     border-right: 1px solid #000;
- }
 
+ /* 左侧边栏固定 */
 
- ul {
-     display: flex;
-     flex-direction: column;
-    
- }
- ul li:first-of-type{
-    height: 10vh;
-    white-space: nowrap;
-    font-size: 3vh;
- }
- ul li:last-of-type{
-    border-bottom: none;
- }
-
- ul>li {
-    display: flex;
-    height: 6vh;
-    align-items: center;
-    padding-left: 2em;
-    border-bottom: 1px solid #000;
- }
 
 /* 右侧边栏 */
  .right-sidebar {
      width: 80%;
+     margin-left: 20%;
  }
 
  .main-section{
